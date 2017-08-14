@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.header_container {
+  height: 50em;
+  width: 100%;
+  background-image: url("https://github.com/luciogutz/Triune-Web-Design/blob/master/assets/Triune-header-banner.jpg?raw=true");
+  background-size: cover;
+}
+
+.header_sloagan {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px rgb(0,0,0);
+  padding-top: 10%;
+  font-family: avenir-light;
+  font-weight: 100;
+  animation: fadeInLeft 1.5s;
+  -webkit-aniamations: fadeInLeft 1.5s;
+  animation-delay: 2s;
+}
+
+.menu {
+  width: 100%;
+  height: 6em;
+  background-color: rgba(0,0,0,0.6);
+  display: inline-block;
+}
+
+.menu-logoImg {
+  height: 6em;
+}
+
+.menuLinks {
+  font-size: 100%;
+  color: white;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.menu_LinkContainer {
+  display: inline-block;
+}
+
+.menu-topBar {
+  height: 3em;
+  background-color: rgb(13, 64, 281);
+}
+
+.menu-topBar-quote {
+  color: white;
+  text-align: right;
+  text-align: -webkit-right;
+  line-height: 3em;
+  padding-right: 5%;
+}
+
+.hide {
+  display: none;
+}
