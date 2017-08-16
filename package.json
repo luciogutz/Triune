@@ -12,6 +12,7 @@
     "ejs": "^2.5.7",
     "express": "^4.15.4",
     "file-loader": "^0.11.2",
+    "jquery": "^3.2.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router": "^4.1.2",
@@ -19,8 +20,12 @@
     "url-loader": "^0.5.9",
     "webpack": "^3.5.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack-dev-server": "^2.7.1"
+  },
   "scripts": {
+    "start": "node index.js",
+    "heroku-postbuild": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
