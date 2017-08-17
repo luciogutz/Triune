@@ -10,8 +10,10 @@ class Home extends React.Component {
       <section>
         <Header />
         <section className="FP-1st-section">
-          <div>
-            <h1 className="FP-1st-title"> Our Process </h1>
+          <div className="FP-1st-section-overlay">
+            <div>
+              <h1 className="FP-1st-title"> Three in One Service </h1>
+            </div>
           </div>
           <div>
 
