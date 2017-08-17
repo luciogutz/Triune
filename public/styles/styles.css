@@ -8,22 +8,52 @@ body {
   position: relative;
 }
 
+.FP-1st-section {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.FP-1st-section div {
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: auto;
+}
+
+.FP-1st-title {
+  font-family: avanir-light;
+  font-weight: 100;
+  font-size: 3em;
+  color: orange;
+  padding-top: 5%;
+}
+
 .fullWidth {
   width: 100%;
 }
 
 .header_container {
-  height: 50em;
+  animation: shrink 20s infinite alternate;
+  -webkit-animation: shrink 20s infinite alternate linear;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  background-attachment: fixed;
+  height: 100vh;
   width: 100%;
-  background-image: url("https://github.com/luciogutz/Triune-Web-Design/blob/master/assets/Triune-header-banner.jpg?raw=true");
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-header-banner.jpg?raw=true");
   background-size: cover;
 }
 
+.header_bannerImage {
+  height: 100%;
+  width: 100%;
+}
+
 .header_sloagan {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
   color: white;
-  text-shadow: 2px 2px rgb(0,0,0);
+  text-shadow: 3.5px 3.5px rgb(0,0,0);
   padding-top: 10%;
   font-family: avenir-light;
   font-weight: 100;

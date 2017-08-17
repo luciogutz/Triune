@@ -49,3 +49,21 @@
 .fadeInLeft {
   animation-name: fadeInLeft;
 }
+
+@keyframes shrink {
+  0% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 115% 115%;
+  }
+}
+
+@-webkit-keyframes shrink {
+  0% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 115% 115%;
+  }
+}

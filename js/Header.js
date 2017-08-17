@@ -3,15 +3,17 @@ import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Menu from './Menu'
 
+
 const images = {
-    menuLogoImg: "https://github.com/luciogutz/Triune-Web-Design/blob/master/assets/Triune-logo.png?raw=true"
+    menuLogoImg: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true"
 }
+
 
 class Header extends React.Component {
   render() {
     return(
       <section>
-        <section className="header_container">
+        <section id="headerBanner" className="header_container">
           <div className="menu-topBar">
             <p className="menu-topBar-quote">
               “It’s not about ideas. It’s about making ideas happen.” —Scott Belsky
@@ -25,7 +27,7 @@ class Header extends React.Component {
           </div>
           <div>
             <h1 className="header_sloagan">
-              We make great Wordpress websites.
+              Let Triune Create your Wordpress site
             </h1>
           </div>
         </section>

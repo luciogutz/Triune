@@ -9,6 +9,14 @@ class Home extends React.Component {
     return(
       <section>
         <Header />
+        <section className="FP-1st-section">
+          <div>
+            <h1 className="FP-1st-title"> Our Process </h1>
+          </div>
+          <div>
+
+          </div>
+        </section>
       </section>
     )
   }
