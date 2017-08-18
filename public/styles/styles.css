@@ -10,9 +10,9 @@ body {
 
 .FP-1st-section {
   width: 100%;
-  height: 40em;
+  height: 35em;
   text-align: center;
-  background-color: rgb(247, 53, 29);
+  background-image: url();
 }
 
 .FP-1st-section-overlay {
@@ -24,16 +24,27 @@ body {
   font-family: avanir-light;
   font-weight: 100;
   font-size: 3em;
-  color: white;
+  color: rgb(247, 53, 29);
   padding-top: 5%;
 }
 
+.FP-1st-resp-content-container {
+  margin-top: 5%;
+}
+
 .FP-1st-responsive_text-div {
-  color: white;
+  display: inline-block;
+  color: rgb(247, 53, 29);
   font-size: 1.5em;
   width: 50%;
   margin-left: 0;
   padding: 5%;
+}
+
+.FP-1st-responsiveImage {
+  display: inline-block;
+  width: 50%;
+  margin-right: 0;
 }
 
 .fullWidth {
