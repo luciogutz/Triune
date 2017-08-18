@@ -12,7 +12,12 @@ class Home extends React.Component {
         <section className="FP-1st-section">
           <div className="FP-1st-section-overlay">
             <div>
-              <h1 className="FP-1st-title"> Three in One Service </h1>
+              <h1 className="FP-1st-title"> Responsive Design </h1>
+            </div>
+            <div className="FP-1st-responsive_text-div">
+              <p>
+                In the morning people use their phones, in the afternoon their desktop, and at night their tablet. Your site needs to be ready for anything, and we can make that happen.
+              </p>
             </div>
           </div>
           <div>

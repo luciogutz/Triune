@@ -3,9 +3,8 @@ import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Menu from './Menu'
 
-
 const images = {
-    menuLogoImg: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true"
+    menuLogoImg: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo-2.png?raw=true"
 }
 
 
@@ -14,7 +13,7 @@ class Header extends React.Component {
     return(
       <section>
         <section id="headerBanner" className="header_container">
-          <div className="header_container-overlay">  
+          <div className="header_container-overlay">
             <div className="menu-topBar">
               <p className="menu-topBar-quote">
                 “It’s not about ideas. It’s about making ideas happen.” —Scott Belsky
@@ -31,8 +30,12 @@ class Header extends React.Component {
                 Your site should reflect who you are.
               </h1>
               <h2 className="header_slogan-subLine">
-                We can help.
+                Lets get started
               </h2>
+            </div>
+            <div className="header_button">
+                <i className="fa fa-angle-double-down" aria-hidden="true">
+                </i>
             </div>
           </div>
         </section>
