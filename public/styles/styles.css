@@ -8,45 +8,6 @@ body {
   position: relative;
 }
 
-.FP-1st-section {
-  width: 100%;
-  height: 35em;
-  text-align: center;
-  background-image: url();
-}
-
-.FP-1st-section-overlay {
-  width: 100%;
-  height: 40em;
-}
-
-.FP-1st-title {
-  font-family: avanir-light;
-  font-weight: 100;
-  font-size: 3em;
-  color: rgb(247, 53, 29);
-  padding-top: 5%;
-}
-
-.FP-1st-resp-content-container {
-  margin-top: 5%;
-}
-
-.FP-1st-responsive_text-div {
-  display: inline-block;
-  color: rgb(247, 53, 29);
-  font-size: 1.5em;
-  width: 50%;
-  margin-left: 0;
-  padding: 5%;
-}
-
-.FP-1st-responsiveImage {
-  display: inline-block;
-  width: 50%;
-  margin-right: 0;
-}
-
 .fullWidth {
   width: 100%;
 }
@@ -149,4 +110,68 @@ body {
 
 .hide {
   display: none;
+}
+
+.resp-section {
+  width: 100%;
+  height: 37em;
+  text-align: center;
+  /*background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/responsive_background.jpg?raw=true");*/
+}
+
+.resp-section-overlay {
+  width: 100%;
+  height: 100%;
+}
+
+.resp-title {
+  font-family: avanir-light;
+  font-weight: 100;
+  font-size: 3em;
+  color: rgb(13, 64, 281);
+  padding-top: 5%;
+}
+
+.resp-content-container {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.resp_text-div {
+  border-right: dotted rgb(13, 64, 281) 3px;
+  font-family: avenir-light;
+  display: inline-block;
+  color: rgb(247, 53, 29);
+  font-size: 1.8em;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+}
+
+.resp-Image {
+  display: inline-block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resp-Image img {
+  width: 100%;
+}
+
+.three-in-one-container {
+  height: 20em;
+  background-color: rgb(247, 53, 29);
+  margin-top: -2%;
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.three-in-one-div {
+  color: white;
+  width: 30%;
+  height: auto;
 }
