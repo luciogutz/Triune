@@ -7,7 +7,7 @@ import Header from './Header'
 const homeImages = {
     responsiveDesignIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/responsive-design-icon.png?raw=true",
     responsiveImage: "https://github.com/luciogutz/Triune/blob/master/public/assets/responsiveImage.png?raw=true",
-    seoIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/SEO-icon-2.png?raw=true"
+    seoIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/SEO-icon-3.png?raw=true"
 }
 
 class Home extends React.Component {
