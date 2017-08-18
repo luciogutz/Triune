@@ -171,7 +171,13 @@ body {
 }
 
 .three-in-one-div {
+  margin-top: 5%;
   color: white;
   width: 30%;
   height: auto;
+  display: inline-block;
+}
+
+.three-in-one-div span {
+  color: gold;
 }

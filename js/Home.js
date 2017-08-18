@@ -4,6 +4,11 @@ import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Header from './Header'
 
 
+const homeImages = {
+    responsiveDesignIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/responsive-design-icon.png?raw=true",
+    responsiveImage: "https://github.com/luciogutz/Triune/blob/master/public/assets/responsiveImage.png?raw=true"
+}
+
 class Home extends React.Component {
   render() {
     return(
@@ -11,16 +16,22 @@ class Home extends React.Component {
         <Header />
         <section className="three-in-one-container">
           <div className="three-in-one-div">
-            <i className="fa fa-pencil-square-o" aria-hidden="true"></i>
+            <img src={homeImages.responsiveDesignIcon} />
             <h3>
               Responsive Design
             </h3>
           </div>
-          <div>
-
+          <div className="three-in-one-div">
+            <img src={homeImages.responsiveDesignIcon} />
+            <h3>
+              <span>S</span>earch <span>E</span>ngine <span>O</span>ptimization
+            </h3>
           </div>
-          <div>
-
+          <div className="three-in-one-div">
+            <img src={homeImages.responsiveDesignIcon} />
+            <h3>
+              Site Managment
+            </h3>
           </div>
         </section>
         <section className="resp-section">
@@ -35,7 +46,7 @@ class Home extends React.Component {
                 </p>
               </div>
               <div className="resp-Image">
-                <img src="https://github.com/luciogutz/Triune/blob/master/public/assets/responsiveImage.png?raw=true" />
+                <img src={homeImages.responsiveImage} />
               </div>
             </div>
           </div>
