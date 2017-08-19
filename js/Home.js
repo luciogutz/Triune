@@ -4,11 +4,19 @@ import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Header from './Header'
 
 
+
 const homeImages = {
     responsiveDesignIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/responsive-design-icon.png?raw=true",
     responsiveImage: "https://github.com/luciogutz/Triune/blob/master/public/assets/responsiveImage.png?raw=true",
-    seoIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/SEO-icon-3.png?raw=true"
+    seoIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/SEO-icon-3.png?raw=true",
+    siteMang: "https://github.com/luciogutz/Triune/blob/master/public/assets/site-management.png?raw=true"
 }
+
+function handleClick(e) {
+
+}
+
+
 
 class Home extends React.Component {
   render() {
@@ -29,7 +37,7 @@ class Home extends React.Component {
             </h3>
           </div>
           <div className="three-in-one-div">
-            <img src={homeImages.responsiveDesignIcon} />
+            <img src={homeImages.siteMang} />
             <h3>
               Site Managment
             </h3>
@@ -42,17 +50,32 @@ class Home extends React.Component {
             </div>
             <div className="resp-content-container">
               <div className="resp_text-div">
+                <h3>
+                  Why Responsive Web Design
+                </h3>
                 <p>
-                  In the morning people use their phones, in the afternoon their desktop, and at night their tablet. Your site needs to be ready for anything, and we can make that happen.
+                  1. Recommended By Google
                 </p>
+                <p>
+                  2. One Website, Many Devices
+                </p>
+                <p>
+                  3. Easier to Manage
+                </p>
+                <Link to="/" className="resp-page-link"> READ MORE </Link>
               </div>
-              <div className="resp-Image">
+              <div className="resp-Image hvr-grow">
                 <img src={homeImages.responsiveImage} />
               </div>
             </div>
-          </div>
-          <div>
-
+            <div className="resp-device-list">
+              <p> Desktop </p>
+              <p> Tablet </p>
+              <p> Phone </p>
+              <p> IOS </p>
+              <p> Android </p>
+              <p> Kindle </p>
+            </div>
           </div>
         </section>
       </section>
