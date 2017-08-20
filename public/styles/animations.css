@@ -14,6 +14,21 @@
   transform: scale(1.1);
 }
 
+.hvr-text-fade {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  transition-property: color;
+}
+.hvr-text-fade:hover, .hvr-text-fade:focus, .hvr-text-fade:active {
+  color: rgb(13, 64, 281);
+}
+
 @keyframes fadeInLeft {
   from {
     opacity: 0;

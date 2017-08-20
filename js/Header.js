@@ -32,7 +32,7 @@ class Header extends React.Component {
                 Lets get started
               </h2>
             </div>
-            <div className="header_button">
+            <div className="header_button hvr-text-fade">
                 <i className="fa fa-angle-double-down" aria-hidden="true">
                 </i>
             </div>

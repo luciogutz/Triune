@@ -67,11 +67,7 @@ body {
   width: 5%;
   text-align: center;
   font-size: 5em;
-  color: orange;
-}
-
-.header_button:hover {
-  color: rgb(13, 64, 281);
+  color: rgb(247, 53, 29);
 }
 
 .menu {
@@ -84,7 +80,7 @@ body {
 .menu-container {
   width: 100%;
   z-index: 99999;
-  position: fixed;
+  position: absolute;
 }
 
 .menu-logoImg {
@@ -124,14 +120,16 @@ body {
 
 .resp-section {
   width: 100%;
-  height: 37em;
+  height: 39em;
+  background-attachment: fixed;
   text-align: center;
-  /*background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/responsive_background.jpg?raw=true");*/
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/resp-section-devices.jpg?raw=true");
 }
 
 .resp-section-overlay {
+  background-color: rgba(0,0,0,0.5);
   width: 100%;
   height: 100%;
 }
@@ -140,42 +138,47 @@ body {
   font-family: avanir-light;
   font-weight: 100;
   font-size: 3em;
-  color: rgb(13, 64, 281);
+  color: white;
   padding-top: 5%;
 }
 
 .resp-content-container {
-  display: flex;
   text-align: center;
   margin: 5%;
 }
 
-.resp_text-div {
-  border-right: dotted rgb(13, 64, 281) 3px;
+.resp_tile-container {
+  text-align: center;
   font-family: avenir-light;
   display: inline-block;
-  color: rgb(247, 53, 29);
-  font-size: 1.8em;
-  width: 50%;
+  color: white;
+  font-size: .8em;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding: 3%;
+  background: rgba(13, 64, 281,0.5);
+  padding: 3% 3% 0 3%;
 }
 
-.resp_text-div h3 {
+.resp_tile-container h3 {
   margin-bottom: 5%;
 }
 
-.resp_text-div p {
-  text-align: left;
-  padding-left: 17%;
+.resp_text-div {
+  vertical-align: text-top;
+  display: inline-block;
+  width: 32%;
+  height: auto;
 }
 
-.resp-Image {
-  display: inline-block;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+.resp_text-div h3 {
+font-size: 1.7em;
+}
+
+.resp_text-div p {
+font-size: 1.2em;
+padding: 6%;
 }
 
 .resp-Image img {
@@ -183,7 +186,7 @@ body {
 }
 
 .resp-device-list {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.3);
   width: 100%;
   display: inline-block;
   color: white;
@@ -195,14 +198,10 @@ body {
   margin: 3%;
 }
 
-.resp-page-link:hover {
-  color: rgb(247, 53, 29);
-}
-
 .three-in-one-container {
   height: 17em;
-  background-color: rgb(247, 53, 29);
-  margin-top: -2%;
+  background-color: rgb(13, 64, 281);
+  margin-top: -3.8%;
   text-align: center;
   text-align: -webkit-center;
 }
@@ -213,6 +212,8 @@ body {
   width: 30%;
   height: auto;
   display: inline-block;
+  background-color: rgba(0,0,0,0.5);
+  padding: 1%;
 }
 
 .three-in-one-div span {

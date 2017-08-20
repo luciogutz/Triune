@@ -46,35 +46,43 @@ class Home extends React.Component {
         <section className="resp-section">
           <div className="resp-section-overlay">
             <div>
-              <h2 className="resp-title"> Responsive Design </h2>
+              <h2 className="resp-title"> Why Responsive Design </h2>
             </div>
             <div className="resp-content-container">
-              <div className="resp_text-div">
-                <h3>
-                  Why Responsive Web Design
-                </h3>
-                <p>
-                  1. Recommended By Google
-                </p>
-                <p>
-                  2. One Website, Many Devices
-                </p>
-                <p>
-                  3. Easier to Manage
-                </p>
-                <Link to="/" className="resp-page-link"> READ MORE </Link>
+              <section className="resp_tile-container">
+                <div className="resp_text-div">
+                  <h3>
+                    1. Recommended By Google
+                  </h3>
+                  <p>
+                    With 67 percent search market share, when Google speaks, search marketers listen. Google states that responsive web design is its recommended mobile configuration, and even goes so far as to refer to responsive web design as the industry best practice.
+                  </p>
+                </div>
+                <div className="resp_text-div">
+                  <h3>
+                    2. One Website, Many Devices
+                  </h3>
+                  <p>
+                    Provides a great user-experience across many devices and screen sizes. This is an important characteristic, since it is impossible to anticipate all the devices and screen sizes searchers will use to access your site.
+                  </p>
+                </div>
+                <div className="resp_text-div">
+                  <h3>
+                    3. Easier to Manage
+                  </h3>
+                  <p>
+                    Having a separate desktop and mobile site requires having separate SEO campaigns. Managing one site and one SEO campaign is far easier than managing two sites and two SEO campaigns. This is a key advantage a responsive website has over a separate mobile site.
+                  </p>
+                </div>
+              </section>
+              <div className="resp-device-list">
+                <p> Desktop </p>
+                <p> Tablet </p>
+                <p> Phone </p>
+                <p> IOS </p>
+                <p> Android </p>
+                <p> Kindle </p>
               </div>
-              <div className="resp-Image hvr-grow">
-                <img src={homeImages.responsiveImage} />
-              </div>
-            </div>
-            <div className="resp-device-list">
-              <p> Desktop </p>
-              <p> Tablet </p>
-              <p> Phone </p>
-              <p> IOS </p>
-              <p> Android </p>
-              <p> Kindle </p>
             </div>
           </div>
         </section>
