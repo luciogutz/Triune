@@ -8,6 +8,11 @@ body {
   position: relative;
 }
 
+p h1 h2 h3 h4 div {
+  font-family: avenir-light;
+  font-weight: 100;
+}
+
 .fullWidth {
   width: 100%;
 }
@@ -120,7 +125,7 @@ body {
 
 .resp-section {
   width: 100%;
-  height: 39em;
+  height: 42em;
   background-attachment: fixed;
   text-align: center;
   background-size: cover;
@@ -135,7 +140,6 @@ body {
 }
 
 .resp-title {
-  font-family: avanir-light;
   font-weight: 100;
   font-size: 3em;
   color: white;
@@ -170,6 +174,7 @@ body {
   display: inline-block;
   width: 32%;
   height: auto;
+  font-size: 1.1em;
 }
 
 .resp_text-div h3 {
@@ -198,6 +203,69 @@ padding: 6%;
   margin: 3%;
 }
 
+.SEO_section {
+  border-top: solid black 2px;
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/SEO-BG-image.jpeg?raw=true");
+  background-size: cover;
+  height: 50em;
+  background-attachment: fixed;
+}
+
+.SEO-content-container {
+  height: 10em;
+  text-align: center;
+  background-color: rgba(253, 54, 29, 0.6);
+  margin: 5%;
+  font-weight: 100;
+}
+
+.SEO-content-list-container {
+  font-family: avenir-light;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  display: inline-block;
+  margin-top: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.SEO-content-list-container p {
+  display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.SEO-content-list-container div {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.p1, .p2 {
+  padding-top: 1%;
+  color: white;
+  font-size: 2em;
+}
+
+.SEO_section-overlay {
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.SEO-title-container {
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.SEO-title-container h3 {
+  font-size: 3em;
+  font-weight: 100;
+}
+
 .three-in-one-container {
   height: 17em;
   background-color: rgb(13, 64, 281);
@@ -209,7 +277,7 @@ padding: 6%;
 .three-in-one-div {
   margin-top: 5%;
   color: white;
-  width: 30%;
+  width: 33%;
   height: auto;
   display: inline-block;
   background-color: rgba(0,0,0,0.5);

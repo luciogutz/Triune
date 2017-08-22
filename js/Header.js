@@ -17,7 +17,7 @@ class Header extends React.Component {
         <section className="menu-container">
           <div className="menu">
             <Link to='/'>
-              <img className="menu-logoImg" src={images.menuLogoImg} />
+              <img className="menu-logoImg" title="Triune web design and site managment" src={images.menuLogoImg} />
             </Link>
             <Menu />
           </div>
