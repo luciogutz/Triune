@@ -47,7 +47,7 @@ p h1 h2 h3 h4 div {
   text-align: center;
   color: white;
   padding: 22% 8% 0;
-  font-family: helvetica;
+  font-family: avenir-light;
   font-weight: 400;
   animation: fadeInLeft 1.5s;
   -webkit-aniamations: fadeInLeft 1.5s;
@@ -73,6 +73,18 @@ p h1 h2 h3 h4 div {
   text-align: center;
   font-size: 5em;
   color: rgb(247, 53, 29);
+}
+
+.header_toTop-div {
+  background-color: rgb(0,0,0);
+  padding-left: .5%;
+  padding-right: .5%;
+  font-size: 2em;
+  bottom: 1%;
+  right: 1%;
+  position: fixed;
+  z-index: 99999;
+  color: rgb(253,54,29);
 }
 
 .menu {
@@ -121,6 +133,12 @@ p h1 h2 h3 h4 div {
 
 .hide {
   display: none;
+}
+
+.managment_section {
+  height: 42em;
+  width: 100%;
+  background-image: url();
 }
 
 .resp-section {
@@ -204,7 +222,7 @@ padding: 6%;
 }
 
 .SEO_section {
-  border-top: solid black 2px;
+  border-top: solid rgb(253,54,29) 4px;
   background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/SEO-BG-image.jpeg?raw=true");
   background-size: cover;
   height: 50em;
@@ -268,7 +286,6 @@ padding: 6%;
 
 .three-in-one-container {
   height: 17em;
-  background-color: rgb(13, 64, 281);
   margin-top: -3.8%;
   text-align: center;
   text-align: -webkit-center;

@@ -50,7 +50,7 @@ class Home extends React.Component {
           </div>
         </section>
         <section className="resp-section">
-          <div className="resp-section-overlay">
+          <article className="resp-section-overlay">
             <div>
               <h2 className="resp-title"> Why Responsive Design </h2>
             </div>
@@ -90,10 +90,10 @@ class Home extends React.Component {
                 <p> Kindle </p>
               </div>
             </div>
-          </div>
+          </article>
         </section>
         <section className="SEO_section">
-          <div className="SEO_section-overlay">
+          <article className="SEO_section-overlay">
             <div className="SEO-title-container">
               <h3>
                 SEO / SEARCH
@@ -111,7 +111,7 @@ class Home extends React.Component {
               <div>
                 <p>Relavent Content</p>
                 <p> Well Placed and Content Rich Images </p>
-                <p> Relavent Links and references </p>
+                <p> Relavent Links and References </p>
               </div>
               <div>
                 <p> Clear and Concise Language </p>
@@ -119,7 +119,12 @@ class Home extends React.Component {
                 <p> Unique and Relavent Page Titles </p>
               </div>
             </div>
-          </div>
+          </article>
+        </section>
+        <section className="Managment_section">
+          <article>
+
+          </article>
         </section>
         <Footer />
       </section>

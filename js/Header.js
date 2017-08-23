@@ -14,6 +14,10 @@ class Header extends React.Component {
   render() {
     return(
       <section>
+        <a href="#">
+        <div className="header_toTop-div">
+          <i className="fa fa-arrow-up" aria-hidden="true"></i>
+        </div></a>
         <section className="menu-container">
           <div className="menu">
             <Link to='/'>
@@ -26,7 +30,7 @@ class Header extends React.Component {
           <div className="header_container-overlay">
             <div>
               <h1 className="header_sloagan">
-                Your site should reflect who you are.
+                Triune will create your site to reflect who you are.
               </h1>
               <h2 className="header_slogan-subLine">
                 Lets get started
