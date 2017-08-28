@@ -7,10 +7,10 @@ import Home from './Home'
 class Menu extends React.Component {
   render() {
 
-    const pages = ['HOME', 'BLOG', 'PICS', 'BIO', 'ART'];
+    const pages = ['HOME', 'ABOUT US', 'PICS', 'BIO', 'ART'];
     const navLinks = pages.map((page, i) => {
       return (
-        <a key={i} className="menuLinks" href={'/' + page}>{page}</a>
+        <Link to="/" key={i} className="menuLinks" href={'/' + page}>{page}</Link>
       )
     })
 

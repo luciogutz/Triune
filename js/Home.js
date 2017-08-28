@@ -52,7 +52,7 @@ class Home extends React.Component {
         <section className="resp-section">
           <article className="resp-section-overlay">
             <div>
-              <h2 className="resp-title"> Why Responsive Design </h2>
+              <h2 className="resp-title"> Responsive Design </h2>
             </div>
             <div className="resp-content-container">
               <section className="resp_tile-container">

@@ -3,7 +3,10 @@ import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 
 const footerImages = {
-  footerLogo: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true"
+  footerLogo: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true",
+  facebookIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/facebook.png?raw=true",
+  twitterIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/twitter.png?raw=true",
+  linkedinIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/linkedin.png?raw=true"
 }
 
 class Footer extends React.Component {
@@ -20,8 +23,16 @@ class Footer extends React.Component {
              <Link to="/"> ART </Link>
           </div>
         </section>
-        <div className="footer_sociallMedia-icons">
-
+        <div className="footer_socialMedia-icons">
+          <a href="/">
+            <img src={footerImages.facebookIcon} />
+          </a>
+          <a href="/">
+            <img src={footerImages.twitterIcon} />
+          </a>
+          <a href="/">
+            <img src={footerImages.linkedinIcon}/>
+          </a>  
         </div>
         <div className="footer_copyright">
           <i className="fa fa-copyright" aria-hidden="true"> Copyright 2017 -  subsidiary of Triune Logistics </i>
