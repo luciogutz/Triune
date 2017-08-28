@@ -45,7 +45,7 @@ class Home extends React.Component {
           <div className="three-in-one-div">
             <img title="Triune website managment" src={homeImages.siteMang} />
             <h3>
-              Site Managment
+              Site Management
             </h3>
           </div>
         </section>
@@ -100,10 +100,10 @@ class Home extends React.Component {
               </h3>
             </div>
             <div className="SEO-content-container">
-              <p className="p1">
+              <p>
                 Triune will build your site to be relavent to what your purpose and goals are.
               </p>
-              <p className="p2">
+              <p>
                 Nothing beats a well thought out content rich website when it comes to SEO.
               </p>
             </div>
@@ -121,9 +121,40 @@ class Home extends React.Component {
             </div>
           </article>
         </section>
-        <section className="Managment_section">
-          <article>
-
+        <section className="management_section">
+          <article className="management_overlay">
+            <div className="management-title-container">
+              <h3>
+                Site Management
+              </h3>
+            </div>
+            <div className="management-content-container">
+              <p>
+                We understand running a business is a huge task. TRIUNE will take some of that burden off by managing your site.
+              </p>
+            </div>
+            <div className="management_tile-container">
+              <p> Content Editing </p>
+              <p> Software Updates </p>
+              <p> Layout and Design Changes </p>
+              <p> Adding or Removing Pages </p>
+              <p> SEO Modifications </p>
+            </div>
+          </article>
+        </section>
+        <section className="frontPage_customer-note">
+          <article className="frontpage_customer-content">
+            <div>
+              <p> Have questions about your site </p>
+              <p> Need some help with upgrades </p>
+              <p> Looking for someone to help manage your site </p>
+              <p> Need a fresh new look </p>
+              <p> Contact us for more information </p>
+            </div>
+            <div>
+              <img src={homeImages.responsiveImage}/>
+            </div>
+            <Link to="#" className="frontpage_contact-Link hvr-text-fade"> Contact </Link>
           </article>
         </section>
         <Footer />
