@@ -4,11 +4,6 @@ import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Menu from './Menu'
 
 
-const images = {
-    menuLogoImgByLG: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo-2.png?raw=true",
-    menuLogoImg: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true"
-}
-
 
 class Header extends React.Component {
   render() {
@@ -18,14 +13,7 @@ class Header extends React.Component {
         <div className="header_toTop-div">
           <i className="fa fa-arrow-up" aria-hidden="true"></i>
         </div></a>
-        <section className="menu-container">
-          <div className="menu">
-            <Link to='/'>
-              <img className="menu-logoImg" title="Triune web design and site managment" src={images.menuLogoImg} />
-            </Link>
-            <Menu />
-          </div>
-        </section>
+        <Menu />
         <section id="headerBanner" className="header_container">
           <div className="header_container-overlay">
             <div>

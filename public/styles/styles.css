@@ -13,6 +13,11 @@ p h1 h2 h3 h4 div {
   font-weight: 100;
 }
 
+.aboutus-banner {
+  height: 30em;
+  width: 100%;
+}
+
 .footer_section {
   text-align: center;
   background-color: black;
@@ -193,6 +198,10 @@ p h1 h2 h3 h4 div {
   display: inline-block;
 }
 
+.menu_nav {
+  width: 100%;
+}
+
 .menu-container {
   width: 100%;
   z-index: 99999;
@@ -209,7 +218,7 @@ p h1 h2 h3 h4 div {
 }
 
 .menuLinks {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: white;
   margin-left: 6%;
   margin-right: 6%;
