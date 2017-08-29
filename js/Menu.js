@@ -5,7 +5,7 @@ import Home from './Home'
 import AboutUs from './Aboutus'
 
 
-class Menu extends React.Component {
+export default class Menu extends React.Component {
   render() {
 
     const images = {
@@ -35,7 +35,7 @@ class Menu extends React.Component {
               </Link>
               <Link
                 className="menuLinks"
-                to="/triune-about-us">
+                to="/triune-aboutus">
                 ABOUT US
               </Link>
               <Link
@@ -44,7 +44,7 @@ class Menu extends React.Component {
                 PORTFOLIO
               </Link>
               <Link
-                className="menuLinks" 
+                className="menuLinks"
                 to="/contact">
                 CONTACT
               </Link>
@@ -56,5 +56,3 @@ class Menu extends React.Component {
     )
   }
 }
-
-export default Menu

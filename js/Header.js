@@ -4,8 +4,7 @@ import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Menu from './Menu'
 
 
-
-class Header extends React.Component {
+export default class Header extends React.Component {
   render() {
     return(
       <section>
@@ -17,7 +16,7 @@ class Header extends React.Component {
         <section id="headerBanner" className="header_container">
           <div className="header_container-overlay">
             <div>
-              <h1 className="header_sloagan">
+              <h1 ref={(ref) => this.headerSloagan = ref} className="header_sloagan">
                 Triune will create your site to reflect who you are.
               </h1>
               <h2 className="header_slogan-subLine">
@@ -34,5 +33,3 @@ class Header extends React.Component {
     )
   }
 }
-
-export default Header

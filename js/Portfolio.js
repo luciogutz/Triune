@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Footer from "./Footer"
 import Menu from './Menu'
 
-class Portfolio extends React.Component {
+export default class Portfolio extends React.Component {
   render() {
     return (
       <section>
@@ -14,5 +14,3 @@ class Portfolio extends React.Component {
     )
   }
 }
-
-export default Portfolio

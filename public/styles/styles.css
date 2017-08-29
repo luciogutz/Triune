@@ -13,8 +13,42 @@ p h1 h2 h3 h4 div {
   font-weight: 100;
 }
 
+.hide {
+  display: none;
+}
+
 .aboutus-banner {
-  height: 30em;
+  animation: shrink 20s infinite alternate;
+  -webkit-animation: shrink 20s infinite alternate linear;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  height: 45em;
+  width: 100%;
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/aboutUs-banner-image.jpeg?raw=true");
+  background-size: cover;
+}
+
+.aboutus-banner-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.aboutus_banner-text-container {
+  width: 100%;
+  font-family: avenir-light;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.aboutus_banner-text-container h2 {
+  font-size: 3.5em;
+  color: white;
+}
+
+.aboutus_body-container {
+  height: auto;
   width: 100%;
 }
 
@@ -153,9 +187,8 @@ p h1 h2 h3 h4 div {
   padding: 22% 8% 0;
   font-family: avenir-light;
   font-weight: 400;
-  animation: fadeInLeft 1.5s;
-  -webkit-aniamations: fadeInLeft 1.5s;
-  animation-delay: 2s;
+  animation: fadeIn 1.5s;
+  -webkit-aniamations: fadeIn 1.5s;
 }
 
 .header_slogan-subLine {
@@ -194,7 +227,7 @@ p h1 h2 h3 h4 div {
 .menu {
   width: 100%;
   height: 6em;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.8);
   display: inline-block;
 }
 

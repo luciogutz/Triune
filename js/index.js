@@ -7,9 +7,9 @@ import Home from './Home'
 
 render(
   (
-    <BrowserRouter history={ HashRouter }>
+    <HashRouter history={ HashRouter }>
       <Triune />
-    </BrowserRouter>
+    </HashRouter>
   ),
   document.getElementById('app')
 )

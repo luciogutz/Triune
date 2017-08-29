@@ -14,7 +14,7 @@ class Triune extends React.Component {
       <main>
         <Switch>
           <Route exact path='/' component={Home}/>
-          <Route path="/triune-about-us" component={AboutUs} />
+          <Route path="/triune-aboutus" component={AboutUs} />
           <Route path="/triune-portfolio" component={Portfolio} />
         </Switch>
       </main>

@@ -9,7 +9,7 @@ const footerImages = {
   linkedinIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/linkedin.png?raw=true"
 }
 
-class Footer extends React.Component {
+export default class Footer extends React.Component {
   render() {
     return(
       <section className="footer_section">
@@ -32,7 +32,7 @@ class Footer extends React.Component {
           </a>
           <a href="/">
             <img src={footerImages.linkedinIcon}/>
-          </a>  
+          </a>
         </div>
         <div className="footer_copyright">
           <i className="fa fa-copyright" aria-hidden="true"> Copyright 2017 -  subsidiary of Triune Logistics </i>
@@ -53,5 +53,3 @@ class Footer extends React.Component {
     )
   }
 }
-
-export default Footer
