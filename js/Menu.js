@@ -13,12 +13,6 @@ export default class Menu extends React.Component {
         menuLogoImg: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true"
     }
 
-    // const pages = ['HOME', 'ABOUT US', 'PICS', 'BIO', 'ART'];
-    // const navLinks = pages.map((page, i) => {
-    //   return (
-    //     <Link to={'/' + page} key={i} className="menuLinks">{page}</Link>
-    //   )
-    // })
 
     return (
       <section className="menu-container">
