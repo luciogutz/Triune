@@ -18,7 +18,7 @@ const aboutusImages = {
 }
 
 export default class Aboutus extends React.Component {
-  
+
   scrollToTop() {
     scroll.scrollToTop();
   }
@@ -39,14 +39,18 @@ export default class Aboutus extends React.Component {
           <div className="aboutus-banner-overlay">
             <article className="aboutus_banner-text-container">
               <h2>
-                ~ Everybody has a story - Read ours ~
+                ~ Everybody has a story - read ours ~
               </h2>
             </article>
           </div>
         </section>
         <article className="aboutus_body-container">
           <div>
-            <p>  </p>
+            
+            <p> Triune Web Design is a startup created by Lucio R. Gutierrez Jr in May of 2016. With a Front End Engineering certification from The Iron Yard Code Academy, The foundation was layed for this knew venture to take shape. </p>
+            <p> Our purpose is a simple one. To provied Rio Grande Valley with the absolute best client based designs and services possible. We dont mind being the new kid on the block, We say "bring it on". We like the challenge and are ready for it. </p>
+            <p> We are pumped primed and lookin to score. Everybody is a potential client and we are excited to work with you. </p>
+
           </div>
         </article>
         <Footer />

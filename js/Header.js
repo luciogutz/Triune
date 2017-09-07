@@ -3,6 +3,8 @@ import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Menu from './Menu'
 import Scroll from 'react-scroll'
+import ScrollAnimation from 'react-animate-on-scroll'
+
 
 let Links      = Scroll.Link;
 let Element    = Scroll.Element;
@@ -29,16 +31,27 @@ export default class Header extends React.Component {
           <div className="header_container-overlay">
             <div>
               <h1 className="header_sloagan">
-                Triune will create your site to reflect who you are.
+                  Triune will create your site to reflect who you are.
               </h1>
-              <h2 className="header_slogan-subLine hide">
-                Lets get started
-              </h2>
+              <ScrollAnimation animateIn="bounceIn"
+                animateOnce="true"
+                duration="1"
+                delay="3000">
+                <h2 className="header_slogan-subLine">
+                  Lets get started
+                </h2>
+              </ScrollAnimation>
             </div>
-            <div className="header_button hvr-text-fade">
-                <i className="fa fa-angle-double-down" aria-hidden="true">
+            <ScrollAnimation animateIn="bounceIn"
+              animateOnce="true"
+              duration="1"
+              delay="3000">
+              <div className="header_button hvr-text-fade">
+                  <i className="fa fa-angle-double-down" aria-hidden="true">
                 </i>
-            </div>
+              </div>
+          </ScrollAnimation>
+
           </div>
         </section>
       </section>

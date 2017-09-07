@@ -21,7 +21,9 @@ p h1 h2 h3 h4 div {
   animation: shrink 20s infinite alternate;
   -webkit-animation: shrink 20s infinite alternate linear;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0) scale(1.0, 1.0);
   height: 45em;
   width: 100%;
   background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/aboutUs-banner-image.jpeg?raw=true");
@@ -50,7 +52,8 @@ p h1 h2 h3 h4 div {
 
 .aboutus_body-container {
   height: auto;
-  width: 100%;
+  width: 80%;
+  margin: 10% auto;
 }
 
 .footer_section {
@@ -95,7 +98,7 @@ p h1 h2 h3 h4 div {
 .footer_menu-items a {
   color: white;
   margin-left: 3%;
-  margin-right: 6%;
+  margin-right: 3%;
 }
 
 .footer_icons-links {
@@ -118,6 +121,11 @@ p h1 h2 h3 h4 div {
   display: inline-block;
   margin: 4% 1% 0;
   height: 3.5em;
+}
+
+.footer_poweredby {
+  margin-bottom: 0;
+  padding-bottom: 2%;
 }
 
 .frontPage_customer-note {
@@ -156,11 +164,15 @@ p h1 h2 h3 h4 div {
 }
 
 .header_container {
-  z-index: -1;
-  animation: shrink 20s infinite alternate;
+  animation: shrink 20s infinite alternate linear;
+  -ms-animation: shrink 20s infinite alternate linear;
+  -o-animation: shrink 20s infinite alternate linear;
+  -moz-animation: shrink 20s infinite alternate linear;
   -webkit-animation: shrink 20s infinite alternate linear;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0) scale(1.0, 1.0);
   background-attachment: fixed;
   height: 100vh;
   width: 100%;
@@ -198,9 +210,6 @@ p h1 h2 h3 h4 div {
   padding: 10% 10% 0;
   font-family: helvetica;
   font-weight: 400;
-  animation: fadeInLeft 1.5s;
-  -webkit-aniamations: fadeInLeft 1.5s;
-  animation-delay: 2s;
 }
 
 .header_button {
@@ -253,15 +262,15 @@ p h1 h2 h3 h4 div {
 .menuLinks {
   font-size: 1.2em;
   color: white;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
   font-family: avenir-light;
   font-weight: 100;
 }
 
 .menu_LinkContainer {
   display: inline-block;
-  width: 60%;
+  width: 75%;
 }
 
 .menu-topBar {
@@ -330,7 +339,7 @@ p h1 h2 h3 h4 div {
   font-size: 2em;
   color: white;
   background-color: rgba(0,0,0,0.5);
-  margin: 0 5% 5%;
+  margin: 0 5% 2%;
 }
 
 .management_tile-container p {
@@ -367,7 +376,7 @@ p h1 h2 h3 h4 div {
 
 .resp-content-container {
   text-align: center;
-  margin: 5%;
+  margin: 5% 5% 3%;
 }
 
 .resp_tile-container {
@@ -416,11 +425,19 @@ padding: 6%;
   color: white;
   font-size: 2em;
   font-family: avenir-light;
+  margin-bottom: 2%;
 }
 
 .resp-device-list p {
   display: inline-block;
   margin: 3%;
+}
+
+.resp-read-more {
+  font-family: avenir-light;
+  color: white;
+  font-size: 2em;
+  margin-top: 2%;
 }
 
 .SEO_section {
@@ -448,7 +465,7 @@ padding: 6%;
   color: white;
   font-size: 1.6em;
   display: inline-block;
-  margin: 0 5% 6%;
+  margin: 0 5% 2%;
   background-color: rgba(0,0,0,0.5);
 }
 
@@ -487,6 +504,16 @@ padding: 6%;
 .SEO-title-container h3 {
   font-size: 3em;
   font-weight: 100;
+}
+
+.seo-read-more {
+  font-family: avenir-light;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  width: 13%;
+  display: block;
+  margin: 0 auto 4%;
 }
 
 .three-in-one-container {

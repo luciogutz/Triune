@@ -102,6 +102,7 @@ export default class Home extends React.Component {
                     <p> Android </p>
                     <p> Kindle </p>
                   </div>
+                  <Link to="/responsive-design" className="resp-read-more hvr-text-fade"> Read More </Link>
                 </ScrollAnimation>
               </div>
 
@@ -142,6 +143,7 @@ export default class Home extends React.Component {
                   <p> Unique and Relavent Page Titles </p>
                 </div>
               </div>
+              <Link to="/seo" className="seo-read-more hvr-text-fade"> Read More </Link>
             </ScrollAnimation>
           </article>
         </section>
@@ -173,6 +175,7 @@ export default class Home extends React.Component {
                 <p> Adding or Removing Pages </p>
                 <p> SEO Modifications </p>
               </div>
+              <Link to="/site-management" className="seo-read-more hvr-text-fade"> Read More </Link>
             </ScrollAnimation>
           </article>
         </section>

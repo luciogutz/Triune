@@ -16,11 +16,11 @@ export default class Footer extends React.Component {
         <img src={footerImages.footerLogo}/>
         <section className="footer_content-container">
           <div className="footer_menu-items">
-             <Link to="/"> HOME </Link>
-             <Link to="/"> BLOG </Link>
-             <Link to="/"> PICS </Link>
-             <Link to="/"> BIO </Link>
-             <Link to="/"> ART </Link>
+             <Link className="hvr-text-fade" to="/"> HOME </Link>
+             <Link className="hvr-text-fade" to="/triune-aboutus"> ABOUT US </Link>
+             <Link className="hvr-text-fade" to="/triune-portfolio"> PORTFOLIO </Link>
+             <Link className="hvr-text-fade" to="/triune-services"> SERVICES </Link>
+             <Link className="hvr-text-fade" to="/triune-contact"> CONTACT </Link>
           </div>
         </section>
         <div className="footer_socialMedia-icons">
@@ -48,6 +48,7 @@ export default class Footer extends React.Component {
               title="Creative Commons BY 3.0" target="_blank"> CC 3.0 BY
             </a>
           </div>
+          <p className="footer_poweredby"> Powered by Heroku and Diet Dr. Pepper </p>
         </div>
       </section>
     )

@@ -39,6 +39,11 @@ export default class Menu extends React.Component {
               </Link>
               <Link
                 className="menuLinks"
+                to="/triune-services">
+                SERVICES
+              </Link>
+              <Link
+                className="menuLinks"
                 to="/contact">
                 CONTACT
               </Link>
