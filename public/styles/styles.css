@@ -52,8 +52,27 @@ p h1 h2 h3 h4 div {
 
 .aboutus_body-container {
   height: auto;
-  width: 80%;
+  width: 90%;
   margin: 10% auto;
+}
+
+.aboutus_body-image-container {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+}
+
+.aboutus_body-image {
+  height: 38em;
+}
+
+.aboutus_body-text-container {
+  font-size: 1.2em;
+  font-family: avenir-light;
+  font-weight: 100;
+  display: inline-block;
+  width: 50%;
+  text-align: left;
 }
 
 .footer_section {
