@@ -15,7 +15,7 @@ let scrollSpy  = Scroll.scrollSpy;
 
 const aboutusImages = {
     aboutUsBanner: "https://github.com/luciogutz/Triune/blob/master/public/assets/aboutUs-banner-image.jpeg?raw=true",
-    aboutusBodyImage: "https://github.com/luciogutz/Triune/blob/master/public/assets/Aboutus.png?raw=true"
+    aboutusBodyImage: "https://github.com/luciogutz/Triune/blob/master/public/assets/Aboutus2.png?raw=true"
 }
 
 export default class Aboutus extends React.Component {
