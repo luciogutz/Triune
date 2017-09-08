@@ -24,7 +24,7 @@ p h1 h2 h3 h4 div {
   backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1.0, 1.0);
   transform: translateZ(0) scale(1.0, 1.0);
-  height: 45em;
+  height: 50em;
   width: 100%;
   background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/aboutUs-banner-image.jpeg?raw=true");
   background-size: cover;
@@ -46,7 +46,7 @@ p h1 h2 h3 h4 div {
 }
 
 .aboutus_banner-text-container h2 {
-  font-size: 3.5em;
+  font-size: 4.5em;
   color: white;
 }
 
@@ -56,8 +56,14 @@ p h1 h2 h3 h4 div {
   margin: 10% auto;
 }
 
+.aboutus_body-container span {
+  color: rgb(13, 64, 281);
+  font-weight: bolder;
+}
+
 .aboutus_body-image-container {
-  width: 30%;
+  text-align: center;
+  width: 25%;
   height: auto;
   display: inline-block;
 }
@@ -71,7 +77,7 @@ p h1 h2 h3 h4 div {
   font-family: avenir-light;
   font-weight: 100;
   display: inline-block;
-  width: 50%;
+  width: 70%;
   text-align: left;
 }
 
