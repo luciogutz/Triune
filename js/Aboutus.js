@@ -20,6 +20,10 @@ const aboutusImages = {
 
 export default class Aboutus extends React.Component {
 
+  componentDidMount() {
+    document.body.scrollTop = 0
+  }
+
   scrollToTop() {
     scroll.scrollToTop();
   }

@@ -25,6 +25,10 @@ const homeImages = {
 
 export default class Home extends React.Component {
 
+  componentDidMount() {
+    document.body.scrollTop = 0
+  }
+
   render() {
     return(
       <section>
