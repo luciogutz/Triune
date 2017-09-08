@@ -149,3 +149,20 @@
   0% {background-size: 100% 100%;}
   100% {background-size: 115% 115%;}
 }
+
+@keyframes zoomIn {
+  from {opacity: 0;
+    transform: scale3d(.3, .3, .3);}
+  50% {opacity: 1;}
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);}
+  50% {opacity: 1;}
+}
+
+.zoomIn {
+  animation-name: zoomIn;
+}

@@ -8,7 +8,7 @@ import Menu from './Menu'
 
 const portfolioImages = {
   portfolioGraphic: "https://github.com/luciogutz/Triune/blob/master/public/assets/Portfolio.png?raw=true",
-  heavenlySplendor: "https://github.com/luciogutz/Triune/blob/master/public/assets/heavenlysplendor.png?raw=true"
+  heavenlySplendor: "https://github.com/luciogutz/Triune/blob/master/public/assets/heavenlysplendor.jpg?raw=true"
 }
 
 export default class Portfolio extends React.Component {
@@ -40,9 +40,12 @@ export default class Portfolio extends React.Component {
               className="portfolio_body-image"
               src={portfolioImages.portfolioGraphic}/>
           </div>
-          <div className="portfolio_tile-container">
-            <img src={portfolioImages.heavenlySplendor} />
-          </div>
+          <article className="portfolio_heavenlySplendor-container">
+            <div className="portfolio_heavenlySplendor-overlay">
+              <h2> Heavenly Splendor Ministries </h2>
+              <Link to="">  </Link>
+            </div>
+          </article>
         </section>
         <Footer />
       </section>
