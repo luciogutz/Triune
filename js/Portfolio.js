@@ -7,7 +7,7 @@ import Menu from './Menu'
 
 
 const portfolioImages = {
-  portfolioGraphic: ""
+  portfolioGraphic: "https://github.com/luciogutz/Triune/blob/master/public/assets/Portfolio.png?raw=true"
 }
 
 export default class Portfolio extends React.Component {
@@ -29,10 +29,17 @@ export default class Portfolio extends React.Component {
         </div></a>
         <Menu />
         <section className="portfolio_banner-container">
-
+          <div className="portfolio_title-container">
+            <h1> ~ Look what we can do ~ </h1>
+          </div>
         </section>
         <section className="portfolio_body-container" >
+          <div className="portfolio_body-image-container">
+            <img
+              className="portfolio_body-image"
+              src={portfolioImages.portfolioGraphic}/>
 
+          </div>
         </section>
         <Footer />
       </section>

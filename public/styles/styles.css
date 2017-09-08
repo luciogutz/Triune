@@ -377,11 +377,39 @@ p h1 h2 h3 h4 div {
 .portfolio_banner-container {
   background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/portfolio.jpg?raw=true");
   background-size: cover;
-  height: 20em;
+  height: 25em;
+}
+
+.portfolio_title-container {
+  width: 100%;
+  font-family: avenir-light;
+  font-weight: 100;
+  color: white;
+  padding-top: 13%;
+  text-align: center;
+}
+
+.portfolio_title-container h1 {
+  font-size: 5em;
+  background-color: rgba(0,0,0,0.4);
+  padding: 2% 0;
 }
 
 .portfolio_body-container {
+  height: auto;
+  width: 90%;
+  margin: 10% auto;
+}
 
+.portfolio_body-image-container {
+  text-align: center;
+  width: 25%;
+  height: auto;
+  display: inline-block;
+}
+
+.portfolio_body-image {
+  height: 38em;
 }
 
 .resp-section {
