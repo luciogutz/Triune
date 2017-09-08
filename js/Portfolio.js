@@ -5,7 +5,13 @@ import Footer from "./Footer"
 import {Helmet} from 'react-helmet'
 import Menu from './Menu'
 
+
+const portfolioImages = {
+  portfolioGraphic: ""
+}
+
 export default class Portfolio extends React.Component {
+
 
   componentDidMount() {
     document.body.scrollTop = 0

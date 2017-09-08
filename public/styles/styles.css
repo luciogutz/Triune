@@ -375,7 +375,9 @@ p h1 h2 h3 h4 div {
 }
 
 .portfolio_banner-container {
-
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/portfolio.jpg?raw=true");
+  background-size: cover;
+  height: 20em;
 }
 
 .portfolio_body-container {
