@@ -412,6 +412,18 @@ p h1 h2 h3 h4 div {
   height: 38em;
 }
 
+.portfolio_tile-container {
+  text-align: center;
+  border: solid grey 2px;
+  width: 50%;
+  padding: .5%;
+  display: inline-block;
+}
+
+.portfolio_tile-container img {
+  width: 100%;
+}
+
 .resp-section {
   overflow: hidden;
   padding-bottom: 1%;
