@@ -447,17 +447,88 @@ p h1 h2 h3 h4 div {
   color: rgb(253,54,29);
 }
 
-.portfolio_heavenlySplendor-overlay a {
-  text-decoration-line: none;
-}
-
 .portfolio_heavenlySplendor-container:hover .portfolio_heavenlySplendor-overlay {
   display: inline-block;
 }
 
-.portfolio_heavenlySplendor-container img {
-  z-index: -1;
+.portfolio_HS-Link {
+  margin-top: 20%;
+  font-size: 3em;
+  display: inline-block;
+}
+
+.port-wrapper {
+  background-color: rgb(38, 50, 56);
+  height: auto;
+}
+
+.port-title-container {
+  font-family: avenir-light;
+  font-weight: 100;
+  text-align: center;
   width: 100%;
+  height: auto;
+  color: white;
+  padding-top: 12%;
+}
+
+.port-title-container h1 {
+  font-size: 4em;
+  margin-bottom: 4%;
+}
+
+.port_body-container {
+  width: 90%;
+  height: auto;
+  margin: 0 auto 5%;
+  background-color: white;
+}
+
+.port_body-container img {
+  width: 100%;
+}
+
+.port_body-content-container {
+  width: 100%;
+  height: auto;
+}
+
+.port_body-text-container {
+  font-family: avenir-light;
+  font-weight: 100;
+  width: 100%;
+  padding: 3%;
+  font-size: 1.5em;
+}
+
+.port_body-features-container {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: 3%;
+  color: black;
+}
+
+.port_body-features-container ul {
+  list-style: none;
+}
+
+.port_website-link {
+  text-align: center;
+  background-color: rgb(253,54,29);
+  color: white;
+  text-decoration: none;
+  text-decoration-line: none;
+  display: block;
+  padding: 1%;
+  border-radius: 10px;
+  transition: .5s;
+}
+
+.port_website-link:hover {
+  background-color: rgb(13, 64, 281);
+  transition: .5s;
+  color: white;
 }
 
 .resp-section {
