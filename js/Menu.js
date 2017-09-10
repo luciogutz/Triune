@@ -37,11 +37,24 @@ export default class Menu extends React.Component {
                 to="/triune-portfolio">
                 PORTFOLIO
               </Link>
-              <Link
-                className="menuLinks"
-                to="/triune-services">
-                SERVICES
-              </Link>
+              <div className="menuItem_container">
+                <Link
+                  className="menuLinks"
+                  to="/triune-services">
+                  SERVICES
+                </Link>
+                <div className="menu_service-dropdown">
+                  <Link
+                    to="/triune-web-design"> Website Design
+                  </Link>
+                  <Link
+                    to="/triune-SEO"> Search Engine Optimization
+                  </Link>
+                  <Link
+                    to="/triune-site-management"> Site Management
+                  </Link>
+                </div>
+              </div>
               <Link
                 className="menuLinks"
                 to="/triune-contact">

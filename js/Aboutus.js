@@ -33,7 +33,7 @@ export default class Aboutus extends React.Component {
       <section className="aboutus_wrapper">
         <Helmet>
           <title> Triune Web Design and site Managment About Us Page</title>
-          <meta name="description" content="Triune Web Design and Site Management about us page - Content will give you the history and future goals and ambitions of Triune Web Design" />
+          <meta name="description" content="Triune Web Design and Site Management - About Us Page - Content will give you the history and future goals and ambitions of Triune Web Design" />
         </Helmet>
         <a onClick={this.scrollToTop}>
         <div className="header_toTop-div">

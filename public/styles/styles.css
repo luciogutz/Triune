@@ -315,6 +315,11 @@ p h1 h2 h3 h4 div {
   font-weight: 100;
 }
 
+.menuLinks:hover {
+  text-decoration: none;
+  transition: .2s;
+}
+
 .menu_LinkContainer {
   display: inline-block;
   width: 75%;
@@ -332,6 +337,39 @@ p h1 h2 h3 h4 div {
   text-align: -webkit-right;
   line-height: 3em;
   padding-right: 5%;
+}
+
+.menuItem_container {
+  display: inline-block;
+  margin: 0 3%;
+}
+
+.menuItem_container:hover .menu_service-dropdown {
+  display: block;
+  animation: fadeIn .5s;
+  -webkit-animation: fadeIn .5s;
+}
+
+.menu_service-dropdown {
+  display: none;
+  position: absolute;
+  width: 18%;
+}
+
+.menu_service-dropdown a {
+  display: block;
+  background-color: rgba(255,255,255, 0.8);
+  padding: 4%;
+  width: 100%;
+  font-family: avenir-light;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.menu_service-dropdown a:hover {
+  background-color: rgba(0,0,0,0.3);
+  transition: .5s;
+  color: white;
 }
 
 .hide {
