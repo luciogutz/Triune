@@ -17,6 +17,11 @@ const hsImage = {
 }
 
 export default class HeavenlySplendor extends React.Component {
+  
+  componentDidMount() {
+    document.body.scrollTop = 0
+  }
+
   render() {
     return (
       <section className="port-wrapper">
@@ -51,7 +56,7 @@ export default class HeavenlySplendor extends React.Component {
                   </ul>
                 </div>
                 <a
-                  target="_blank" 
+                  target="_blank"
                   className="port_website-link" href="http://heavenlysplendor.org/"> Visit Site </a>
               </div>
             </article>

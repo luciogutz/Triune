@@ -17,6 +17,10 @@ p h1 h2 h3 h4 div {
   display: none;
 }
 
+.aboutus_wrapper {
+  background-color: rgb(38, 50, 56);
+}
+
 .aboutus-banner {
   animation: shrink 20s infinite alternate;
   -webkit-animation: shrink 20s infinite alternate linear;
@@ -39,6 +43,7 @@ p h1 h2 h3 h4 div {
 
 .aboutus_banner-text-container {
   width: 100%;
+  margin: auto;
   font-family: avenir-light;
   font-weight: 100;
   text-align: center;
@@ -51,14 +56,29 @@ p h1 h2 h3 h4 div {
 }
 
 .aboutus_body-container {
+  background-color: white;
   height: auto;
   width: 90%;
-  margin: 10% auto;
+  margin: auto;
+  padding: 10% 0 10%;
 }
 
-.aboutus_body-container span {
+.aboutus_body-text-container span {
   color: rgb(13, 64, 281);
   font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.aboutus_body-text-container strong {
+  color: rgb(247, 53, 29);
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.aboutus_body-triune {
+  color: rgb(247, 53, 29);
+  font-weight: bolder;
+  font-family: sans-serif;
 }
 
 .aboutus_body-image-container {
@@ -66,6 +86,7 @@ p h1 h2 h3 h4 div {
   width: 25%;
   height: auto;
   display: inline-block;
+  vertical-align: top;
 }
 
 .aboutus_body-image {
@@ -273,6 +294,7 @@ p h1 h2 h3 h4 div {
   width: 100%;
   z-index: 99999;
   position: absolute;
+  transition: .5s;
 }
 
 .menu-container:hover {
@@ -377,7 +399,7 @@ p h1 h2 h3 h4 div {
 .portfolio_banner-container {
   background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/portfolio.jpg?raw=true");
   background-size: cover;
-  height: 25em;
+  height: 30em;
 }
 
 .portfolio_title-container {
@@ -385,14 +407,14 @@ p h1 h2 h3 h4 div {
   font-family: avenir-light;
   font-weight: 100;
   color: white;
-  padding-top: 13%;
+  padding-top: 15%;
   text-align: center;
 }
 
 .portfolio_title-container h1 {
-  font-size: 5em;
+  font-size: 3.2em;
   background-color: rgba(0,0,0,0.4);
-  padding: 2% 0;
+  padding: 5% 0;
 }
 
 .portfolio_body-container {
@@ -507,6 +529,10 @@ p h1 h2 h3 h4 div {
   height: auto;
   padding: 3%;
   color: black;
+}
+
+.port_body-features-container ul {
+  padding: 0;
 }
 
 .port_body-features-container ul {

@@ -43,7 +43,7 @@ export default class Portfolio extends React.Component {
         <Menu />
         <section className="portfolio_banner-container">
           <div className="portfolio_title-container">
-            <h1> ~ Look what we can do ~ </h1>
+            <h1> ~ Transform your site from good to awesome ~ </h1>
           </div>
         </section>
         <section className="portfolio_body-container" >
