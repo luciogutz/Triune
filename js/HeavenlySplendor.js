@@ -17,10 +17,10 @@ const hsImage = {
 }
 
 export default class HeavenlySplendor extends React.Component {
-  
-  componentDidMount() {
-    document.body.scrollTop = 0
-  }
+
+  componentDidUpdate() {
+  ReactDOM.findDOMNode(this).scrollTop = 0
+}
 
   render() {
     return (

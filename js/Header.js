@@ -14,6 +14,7 @@ let scrollSpy  = Scroll.scrollSpy;
 
 
 export default class Header extends React.Component {
+  
   scrollToTop() {
     scroll.scrollToTop();
   }

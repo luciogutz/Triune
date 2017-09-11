@@ -15,7 +15,7 @@ let scrollSpy  = Scroll.scrollSpy;
 export default class SiteManagement extends React.Component {
 
   componentDidMount () {
-    document.body.scrollTop = 0
+    window.scrollTo(0, 0)
   }
 
   scrollToTop() {

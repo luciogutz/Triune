@@ -4,15 +4,15 @@ import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Home from './Home'
 import AboutUs from './Aboutus'
 
+const images = {
+    menuLogoImgByLG: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo-2.png?raw=true",
+    menuLogoImg: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true"
+}
+
 
 export default class Menu extends React.Component {
+
   render() {
-
-    const images = {
-        menuLogoImgByLG: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo-2.png?raw=true",
-        menuLogoImg: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true"
-    }
-
 
     return (
       <section className="menu-container">
