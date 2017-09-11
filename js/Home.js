@@ -41,7 +41,7 @@ export default class Home extends React.Component {
             <div name="test1" className="three-in-one-div">
               <img title="Triune responsive design" src={homeImages.responsiveDesignIcon} />
               <h3>
-                Responsive Design
+                Responsive Web Design
               </h3>
             </div>
             <div name="test1" className="three-in-one-div">
@@ -59,7 +59,7 @@ export default class Home extends React.Component {
         </section>
         <section className="resp-section">
             <div>
-              <h2 className="resp-title"> Responsive Design </h2>
+              <h2 className="resp-title"> Responsive Web Design </h2>
             </div>
 
               <div className="resp-content-container">
@@ -106,10 +106,9 @@ export default class Home extends React.Component {
                     <p> Android </p>
                     <p> Kindle </p>
                   </div>
-                  <Link to="/responsive-design" className="resp-read-more hvr-text-fade"> Read More </Link>
+                  <Link to="/triune-web-design" className="resp-read-more hvr-text-fade"> Read More </Link>
                 </ScrollAnimation>
               </div>
-
           </section>
         <section className="SEO_section">
           <article className="SEO_section-overlay">
@@ -147,7 +146,7 @@ export default class Home extends React.Component {
                   <p> Unique and Relavent Page Titles </p>
                 </div>
               </div>
-              <Link to="/seo" className="seo-read-more hvr-text-fade"> Read More </Link>
+              <Link to="/triune-SEO" className="seo-read-more hvr-text-fade"> Read More </Link>
             </ScrollAnimation>
           </article>
         </section>
@@ -179,7 +178,7 @@ export default class Home extends React.Component {
                 <p> Adding or Removing Pages </p>
                 <p> SEO Modifications </p>
               </div>
-              <Link to="/site-management" className="seo-read-more hvr-text-fade"> Read More </Link>
+              <Link to="/triune-site-management" className="seo-read-more hvr-text-fade"> Read More </Link>
             </ScrollAnimation>
           </article>
         </section>

@@ -37,14 +37,14 @@ export default class WebDesign extends React.Component {
         <section className="WebDesign_banner">
           <div>
             <h1>
-              Website Design
+              Website Design - Our Four Step Process
             </h1>
           </div>
         </section>
         <section className="webDesign_body-container">
           <article className="webDesign_body-text">
             <h2>
-              Our four step creative process
+              Agile Methodology
             </h2>
           </article>
           <article className="webDesign_agile-container">
@@ -65,14 +65,14 @@ export default class WebDesign extends React.Component {
             <div className="webDesign-agile-div3">
               <section className="webDesign-agile-div3-overlay">
                 <h3 className="webDesign-agile-title-3">
-                3. Deployment & Evaluation  </h3>
+                4. Deployment & Evaluation  </h3>
                 <div>
                 </div>
               </section>
             </div>
             <div className="webDesign-agile-div4">
               <section className="webDesign-agile-div4-overlay">
-                  <h3 className="webDesign-agile-title-4"> 4. Development </h3>
+                  <h3 className="webDesign-agile-title-4"> 3. Development </h3>
                 <div>
                 </div>
               </section>
@@ -82,9 +82,30 @@ export default class WebDesign extends React.Component {
             <p>
               Building your online brand is vital to your organization or business, and we take an Agile approach when it comes to our Web Design Services.
             </p>
-            <div>
-              <h3> 1. Planning and Requirements </h3>
-            </div>  
+            <div className="webDesign_content-div-stage-1">
+              <h3> 1. Planning & Requirements </h3>
+              <p>
+                This first stage is where we become students and learn the ins and outs of your business or organization. We take the time to understand your needs and what you would consider absolute must haves to be included in the final product.
+              </p>
+            </div>
+            <div className="webDesign_content-div-stage-2">
+              <h3> 2. Design & Layout </h3>
+              <p>
+                During the second stage we begin to create the best possible layout that will enhance the functionality and usability of your website. Our stratigy will be based on your requirements and needs. We will also consider animations and other avenues to create a great user experience.
+              </p>
+            </div>
+            <div className="webDesign_content-div-stage-3">
+              <h3> 3. Development </h3>
+              <p>
+                Stage three is where we roll up our sleeves and dive right in to the code. Using the latest in HTML5 and CSS3, we will begin to cunstruct your site with Search Engine Optimization, device responsiveness, and cross browser compatability in mind.
+              </p>
+            </div>
+            <div className="webDesign_content-div-stage-4">
+              <h3> 3. Deployment and Evaluation </h3>
+              <p>
+                Stage four is our launch and monitor faze. Just because things have gone online doesnt mean we're done. We want to stay with you until you are absolutly satisfied with the product. The beautiful thing about are Agile process is that even after deployment, we have a system in place to continue planning, designing and developing until everything has met the standards we set out to accomplish.
+              </p>
+            </div>
           </article>
         </section>
         <Footer />

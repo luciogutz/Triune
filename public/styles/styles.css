@@ -798,14 +798,15 @@ padding: 6%;
 }
 
 .WebDesign_banner h1 {
-  font-size: 5em;
+  font-size: 3em;
   font-family: avenir-light;
   font-weight: 100;
 }
 
 .webDesign_body-container {
+  border-radius: 5px;
   width: 90%;
-  margin: auto;
+  margin: 0 auto 5%;
   background-color: white;
   text-align: center;
   padding: 2%;
@@ -1024,4 +1025,68 @@ padding: 6%;
   width: 100%;
   height: auto;
   padding: 2%;
+}
+
+.webDesign_content-container p {
+  color: rgb(38, 50, 56);
+  font-size: 1.4em;
+  margin: auto;
+  padding: 1%;
+  width: 100%;
+}
+
+.webDesign_content-div-stage-1 {
+  padding: 1%;
+  margin-top: 5%;
+  width: 100%;
+  border: double 6px rgb(253,54,29);
+  font-weight: 100;
+  font-family: avenir-light;
+}
+
+.webDesign_content-div-stage-1 h3 {
+  color: rgb(253,54,29);
+  margin-bottom: 3%;
+}
+
+.webDesign_content-div-stage-2 {
+  padding: 1%;
+  margin-top: 5%;
+  width: 100%;
+  border: double 6px rgb(13, 64, 281);
+  font-weight: 100;
+  font-family: avenir-light;
+}
+
+.webDesign_content-div-stage-2 h3 {
+  color: rgb(13, 64, 281);
+  margin-bottom: 3%;
+}
+
+.webDesign_content-div-stage-3 {
+  padding: 1%;
+  margin-top: 5%;
+  width: 100%;
+  border: double 6px rgb(255, 160, 0);
+  font-weight: 100;
+  font-family: avenir-light;
+}
+
+.webDesign_content-div-stage-3 h3 {
+  color: rgb(255, 160, 0);
+  margin-bottom: 3%;
+}
+
+.webDesign_content-div-stage-4 {
+  padding: 1%;
+  margin-top: 5%;
+  width: 100%;
+  border: double 6px rgb(56, 142, 60);
+  font-weight: 100;
+  font-family: avenir-light;
+}
+
+.webDesign_content-div-stage-4 h3 {
+  color: rgb(56, 142, 60);
+  margin-bottom: 3%;
 }
