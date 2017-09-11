@@ -782,3 +782,246 @@ padding: 6%;
 .three-in-one-div span {
   color: gold;
 }
+
+.webDesign_wrapper {
+  background-color: rgb(38, 50, 56);
+  height: auto;
+  width: 100%;
+}
+
+.WebDesign_banner {
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 12%;
+  margin-bottom: 5%;
+}
+
+.WebDesign_banner h1 {
+  font-size: 5em;
+  font-family: avenir-light;
+  font-weight: 100;
+}
+
+.webDesign_body-container {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.webDesign_body-text {
+  width: 100%;
+  height: auto;
+  padding: 2%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.webDesign_body-text h2 {
+  font-size: 2.5em;
+  font-family: avenir-light;
+  font-weight: 100;
+}
+
+.webDesign_agile-container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+
+.webDesign_agile-container div {
+  display: inline-block;
+  width: 34%;
+  height: 19em;
+  margin: -0.6% 0 0 0;
+  vertical-align: text-top;
+  position: relative;
+}
+
+.webDesign-agile-title-1 {
+  color: white;
+  font-family: avenir-light;
+  font-weight: 100;
+  padding-top: 46%;
+  font-size: 2em;
+  padding-left: 10%;
+}
+
+.webDesign-agile-title-2 {
+  color: white;
+  font-family: avenir-light;
+  font-weight: 100;
+  padding-top: 46%;
+  font-size: 2em;
+  padding-right: 20%;
+}
+
+.webDesign-agile-title-3 {
+  color: white;
+  font-family: avenir-light;
+  font-weight: 100;
+  padding-top: 35%;
+  font-size: 2em;
+  padding-left: 10%;
+}
+
+.webDesign-agile-title-4 {
+  color: white;
+  font-family: avenir-light;
+  font-weight: 100;
+  padding-top: 35%;
+  font-size: 2em;
+  padding-right: 10%;
+}
+
+.webDesign-agile-div1  {
+  background-size: cover;
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/aboutUs-banner-image.jpeg?raw=true");
+  border-radius: 300px 0 0;
+  border: solid black 1px;
+}
+
+.webDesign-agile-div1-overlay {
+  border-radius: 300px 0 0 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 54, 29, 0.6);
+}
+
+.webDesign-agile-div1:hover div {
+  display: block;
+  background-color: rgba(255, 179, 0, 1);
+  animation: fadeIn .6s;
+  -webkit-animation: fadeIn .6s;
+  -o-animation: fadeIn .6s;
+  -moz-animation: fadeIn .6s;
+  -ms-animation: fadeIn .6s;
+}
+
+.webDesign-agile-div1 div {
+  display: none;
+  right: 0;
+  bottom: 0;
+  border-radius: 300px 0 0 0;
+  border-left: solid black 1px;
+  border-top: solid black 1px;
+  height: 6em;
+  width: 6em;
+  position: absolute;
+}
+
+.webDesign-agile-div2  {
+  background-size: cover;
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/managment-section.jpeg?raw=true");
+  border-radius: 0 300px 0 0;
+  border: solid black 1px;
+}
+
+.webDesign-agile-div2-overlay {
+  border-radius: 0 300px 0 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 64, 281,0.6);
+}
+
+.webDesign-agile-div2:hover div {
+  display: block;
+  background-color: rgba(255, 179, 0, 1);
+  animation: fadeIn .6s;
+  -webkit-animation: fadeIn .6s;
+  -o-animation: fadeIn .6s;
+  -moz-animation: fadeIn .6s;
+  -ms-animation: fadeIn .6s;
+}
+
+.webDesign-agile-div2 div  {
+  display: none;
+  left: 0;
+  bottom: 0;
+  border-radius: 0 300px 0 0;
+  border-right: solid black 1px;
+  border-top: solid black 1px;
+  height: 6em;
+  width: 6em;
+  position: absolute;
+}
+
+.webDesign-agile-div3  {
+  background-size: cover;
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/resp-section-devices.jpg?raw=true");
+  border-radius: 0 0 0 300px;
+  border: solid black 1px;
+}
+
+.webDesign-agile-div3-overlay {
+  border-radius: 0 0 0 300px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(67, 160, 71, 0.6);
+}
+
+.webDesign-agile-div3:hover div {
+  display: block;
+  background-color: rgba(255, 179, 0, 1);
+  animation: fadeIn .6s;
+  -webkit-animation: fadeIn .6s;
+  -o-animation: fadeIn .6s;
+  -moz-animation: fadeIn .6s;
+  -ms-animation: fadeIn .6s;
+}
+
+.webDesign-agile-div3 div  {
+  display: none;
+  right: 0;
+  top: 2px;
+  border-radius: 0 0 0 300px;
+  border-left: solid black 1px;
+  border-bottom: solid black 1px;
+  height: 6em;
+  width: 6em;
+  position: absolute;
+}
+
+.webDesign-agile-div4  {
+  background-size: cover;
+  background-image: url("https://github.com/luciogutz/Triune/blob/master/public/assets/SEO-BG-image.jpeg?raw=true");
+  border-radius: 0 0 300px 0;
+  border: solid black 1px;
+}
+
+.webDesign-agile-div4-overlay {
+  border-radius: 0 0 300px 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(253, 216, 53, 0.8);
+}
+
+.webDesign-agile-div4:hover div {
+  display: block;
+  background-color: rgba(255, 179, 0, 1);
+  animation: fadeIn .6s;
+  -webkit-animation: fadeIn .6s;
+  -o-animation: fadeIn .6s;
+  -moz-animation: fadeIn .6s;
+  -ms-animation: fadeIn .6s;
+}
+
+.webDesign-agile-div4 div  {
+  display: none;
+  left: 0;
+  top: 2px;
+  border-radius: 0 0 300px 0;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;
+  height: 6em;
+  width: 6em;
+  position: absolute;
+}
+
+.webDesign_content-container {
+  width: 100%;
+  height: auto;
+  padding: 2%;
+}
