@@ -4,6 +4,9 @@ import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Menu from './Menu'
 import Scroll from 'react-scroll'
 import ScrollAnimation from 'react-animate-on-scroll'
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+
 
 
 let Links      = Scroll.Link;
@@ -14,7 +17,7 @@ let scrollSpy  = Scroll.scrollSpy;
 
 
 export default class Header extends React.Component {
-  
+
   scrollToTop() {
     scroll.scrollToTop();
   }

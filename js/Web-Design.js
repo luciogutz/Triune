@@ -5,6 +5,9 @@ import Footer from "./Footer"
 import Menu from './Menu'
 import {Helmet} from 'react-helmet'
 import Scroll from 'react-scroll'
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+
 
 let Links      = Scroll.Link;
 let Element    = Scroll.Element;

@@ -3,6 +3,9 @@ import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Home from './Home'
 import AboutUs from './Aboutus'
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+
 
 const images = {
     menuLogoImgByLG: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo-2.png?raw=true",

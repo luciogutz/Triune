@@ -1,6 +1,9 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+
 
 const footerImages = {
   footerLogo: "https://github.com/luciogutz/Triune/blob/master/public/assets/Triune-logo.png?raw=true",

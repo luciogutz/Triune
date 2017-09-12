@@ -5,6 +5,10 @@ import Footer from "./Footer"
 import Menu from './Menu'
 import {Helmet} from 'react-helmet'
 import Scroll from 'react-scroll'
+import Form from './Form'
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+
 
 let Links      = Scroll.Link;
 let Element    = Scroll.Element;
@@ -38,6 +42,7 @@ export default class Contact extends React.Component {
 
         </section>
         <Footer />
+        <Form />
       </section>
     )
   }

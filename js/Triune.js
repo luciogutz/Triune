@@ -9,6 +9,9 @@ import Contact from './Contact'
 import WebDesign from './Web-Design'
 import SEO from './SEO'
 import SiteManagement from './Site-Management'
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+
 
 
 

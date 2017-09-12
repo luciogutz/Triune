@@ -4,6 +4,9 @@ import { Router, BrowserRouter, HashRouter, Route, Link, history } from 'react-r
 // import { history } from 'react-router'
 import Triune from './Triune'
 import Home from './Home'
+import classNames from 'classnames'
+import PropTypes from 'prop-types'
+
 
 render(
   (
