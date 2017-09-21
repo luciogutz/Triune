@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Footer from "./Footer"
@@ -22,7 +22,7 @@ const portfolioImages = {
   heavenlySplendor: "https://github.com/luciogutz/Triune/blob/master/public/assets/heavenlysplendor.jpg?raw=true"
 }
 
-export default class Portfolio extends React.Component {
+export default class Portfolio extends Component {
 
   scrollToTop() {
     scroll.scrollToTop();

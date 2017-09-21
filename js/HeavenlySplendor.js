@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Footer from "./Footer"
@@ -19,11 +19,11 @@ const hsImage = {
     hsMainImage: "https://github.com/luciogutz/Triune/blob/master/public/assets/heavenlysplendor.jpg?raw=true"
 }
 
-export default class HeavenlySplendor extends React.Component {
+export default class HeavenlySplendor extends Component {
 
-  componentDidUpdate() {
-  ReactDOM.findDOMNode(this).scrollTop = 0
-}
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
 
   render() {
     return (

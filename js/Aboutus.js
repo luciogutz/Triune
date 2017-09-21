@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Footer from "./Footer"
@@ -21,7 +21,7 @@ const aboutusImages = {
     aboutusBodyImage: "https://github.com/luciogutz/Triune/blob/master/public/assets/Aboutus3.png?raw=true"
 }
 
-export default class Aboutus extends React.Component {
+export default class Aboutus extends Component {
 
   componentDidMount() {
     window.scrollTo(0, 0)

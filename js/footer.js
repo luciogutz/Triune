@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import classNames from 'classnames'
@@ -12,7 +12,7 @@ const footerImages = {
   linkedinIcon: "https://github.com/luciogutz/Triune/blob/master/public/assets/linkedin.png?raw=true"
 }
 
-export default class Footer extends React.Component {
+export default class Footer extends Component {
   render() {
     return(
       <section className="footer_section">

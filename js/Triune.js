@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { Switch, Route } from 'react-router-dom'
 import Home from './Home'
@@ -15,7 +15,7 @@ import PropTypes from 'prop-types'
 
 
 
-class Triune extends React.Component {
+class Triune extends Component {
   render() {
     return(
       <main>

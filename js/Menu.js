@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Home from './Home'
@@ -13,7 +13,7 @@ const images = {
 }
 
 
-export default class Menu extends React.Component {
+export default class Menu extends Component {
 
   render() {
 

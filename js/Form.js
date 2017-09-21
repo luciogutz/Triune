@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Footer from "./Footer"
@@ -8,78 +8,91 @@ import Scroll from 'react-scroll'
 import Validation from 'react-validation'
 import classNames from 'classnames'
 import PropTypes from 'prop-types'
+import { ajax } from 'jquery'
 
 
-let Links      = Scroll.Link;
-let Element    = Scroll.Element;
-let Events     = Scroll.Events;
-let scroll     = Scroll.animateScroll;
-let scrollSpy  = Scroll.scrollSpy;
+let Links     = Scroll.Link;
+let Element   = Scroll.Element;
+let Events    = Scroll.Events;
+let scroll    = Scroll.animateScroll;
+let scrollSpy = Scroll.scrollSpy;
 
-export default class Form extends React.Component {
+
+export default class Form extends Component {
 
 
   constructor(props) {
     super(props);
     this.state = {
+      Form: {
         Name: "",
         Email: "",
         Website: "",
-        Message: "",
-        Loading: false,
-        Errors: {}
+        Subject: "",
+        Message: ""
+      }
     }
+    this.onFormChange = this.onFormChange.bind(this)
   }
 
-  onFormNameChange(e) {
-    var formName = e.target.value
-    console.log(formName);
+  onFormChange(e) {
+    var formName = this._name.value
+    var formEmail = this._email.value
+    var formWebsite = this._website.value
+    var formSubject = this._subject.value
+    var formMessage = this._message.value
     this.setState({
-      Name: formName
-    })
-  }
-  onFormEmailChange(e) {
-    var formEmail = e.target.value
-    this.setState({
-      Email: formEmail
-    })
-  }
-  onFormWebsiteChange(e) {
-    var formWebsite = e.target.value
-    this.setState({
-      Website: formWebsite
-    })
-  }
-  onFormMessageChange(e) {
-    var formMessage = e.target.value
-    this.setState({
-      Message: formMessage
+      Form: {
+        Name: formName,
+        Email: formEmail,
+        Website: formWebsite,
+        Subject: formSubject,
+        Message: formMessage
+      }
     })
   }
 
+
+  onFormSubmit(e){
+    e.preventDefault();
+    console.log(thi);
+  }
 
   render() {
+    const formInputs = this.state
+    console.log(formInputs);
     return(
       <section>
-        <Validation.components.Form>
+        <Validation.components.Form
+          onChange={this.onFormChange}>
           <input
-            onChange={this.onFormNameChange.bind(this)}
+          ref={input => this._name = input}
+            name="Name"
             type="text"
             placeholder="NAME" />
           <input
-            onChange={this.onFormEmailChange.bind(this)}
+            ref={input => this._email = input}
+            name="Email"
             type="text"
             placeholder="EMAIL" />
           <input
-            onChange={this.onFormWebsiteChange.bind(this)}
+            ref={input => this._website = input}
+            name="Website"
             type="text"
             placeholder="WEBSITE" />
           <input
-            onChange={this.onFormMessageChange.bind(this)}
+            ref={input => this._subject = input}
+            name="Website"
+            type="text"
+            placeholder="SUBJECT" />
+          <textarea
+            ref={input => this._message = input}
+            name="Message"
             type="text"
             placeholder="MESSAGE" />
-          <input type="submit"/>
+          <input onSubmit={this.onFormSubmit.bind(this)} type="submit"/>
         </Validation.components.Form>
+        <p>{this.state.Name}</p>
       </section>
     )
   }

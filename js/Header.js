@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route, Link, history } from 'react-router-dom'
 import Menu from './Menu'
@@ -16,7 +16,7 @@ let scroll     = Scroll.animateScroll;
 let scrollSpy  = Scroll.scrollSpy;
 
 
-export default class Header extends React.Component {
+export default class Header extends Component {
 
   scrollToTop() {
     scroll.scrollToTop();

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { render } from 'react-dom'
 import { Router, BrowserRouter, HashRouter, Route, Link, history } from 'react-router-dom'
 // import { history } from 'react-router'
